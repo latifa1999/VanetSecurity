@@ -1,0 +1,13 @@
+gymnasium==1.0.0
+matplotlib==3.7.0
+networkx==3.2.1
+numpy==1.23.5
+numpy==1.22.3
+optuna==4.2.1
+pandas==1.5.3
+psutil==5.9.0
+scikit_learn==1.2.2
+seaborn==0.13.2
+stable_baselines3==2.5.0
+torch==2.4.1
+tqdm==4.64.1
