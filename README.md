@@ -15,7 +15,7 @@ The system operates in real-time: the simulation generates V2V communication dat
 <img width="840" height="712" alt="image" src="https://github.com/user-attachments/assets/5c2d745a-f31d-4209-b219-c61df6f24f31" />
 
 ## Repository Structure
-1. Time_Series_Anomaly_Detection/
+1. Time_Series_Anomaly_Detection/: 
 Contains implementation of state-of-the-art time-series models for V2V message anomaly detection:
 
 - Multiple Model Support: Includes various time-series models for classification
@@ -23,7 +23,7 @@ Contains implementation of state-of-the-art time-series models for V2V message a
 - Training Scripts: Complete training pipeline with hyperparameter tuning
 - Evaluation Tools: Performance metrics and visualization scripts
 
-2. GRL_Module/
+2. GRL_Module/: 
 Graph Reinforcement Learning implementation combining Proximal Policy Optimization (PPO) with Graph Neural Networks:
 
 - Environment Setup: VANET graph environment simulation
@@ -31,7 +31,7 @@ Graph Reinforcement Learning implementation combining Proximal Policy Optimizati
 - PPO Training: Policy gradient method for link pruning decisions
 - Evaluation Tools: Performance assessment and visualization
 
-3. Simulation/Vanet/
+3. Simulation/Vanet/: 
 OMNeT++ and SUMO configuration files for realistic vehicular network simulation:
 
 - Multiple Road Scenarios: Three different traffic environments
@@ -39,7 +39,7 @@ OMNeT++ and SUMO configuration files for realistic vehicular network simulation:
 - Attack Simulation: Configurable malicious behaviors
 - Real-time Data Export: V2V message logging for analysis
 
-4. Python_C++/
+4. Python_C++/: 
 Python-C++ communication bridge enabling real-time integration:
 
 - Socket Communication: TCP/IP bridge between simulation and Python
